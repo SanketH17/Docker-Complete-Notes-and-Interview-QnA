@@ -1,5 +1,4 @@
-# 🐳 Docker — Complete Beginner's Notes
-### *A Beginner-Friendly, End-to-End Docker Guide*
+# 🐳 Docker — Complete Notes
 
 ---
 
