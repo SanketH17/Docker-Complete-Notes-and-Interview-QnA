@@ -77,7 +77,7 @@ If I develop a Spring Boot application, I can package it into a Docker image and
 >
 > We use an image to create containers. We can create multiple containers from the same image.”
 
-**💡 Example**
+**💡 Example** 
 
 Think of an image as a recipe and a container as the actual dish prepared from that recipe.
 
