@@ -352,6 +352,8 @@ It helps us create **smaller**, **cleaner**, and more **secure** Docker images b
 
 **🎤 Interview Answer**
 
+**Image layers:** The individual parts used to build that image.
+
 “Docker **image layers** are like **layers of a cake**. Each **Dockerfile instruction**, such as **installing Java** or **copying an application file**, contributes to building the **image**. Docker **reuses unchanged cached layers**, which makes image builds **faster** and **more efficient**.”
 
 To make builds and images more **efficient**, I use a **small base image**, copy files in the **right order**, use **`.dockerignore`** to exclude unnecessary files, and use **multi-stage builds** to remove build tools from the final image. 🛠️
