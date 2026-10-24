@@ -352,9 +352,7 @@ It helps us create **smaller**, **cleaner**, and more **secure** Docker images b
 
 **🎤 Interview Answer**
 
-"**Docker image layers** are created by instructions in a Dockerfile. Each layer represents a **change** made while building the image. 🧅
-
-Docker **reuses cached layers** when nothing has changed, which helps make builds **faster**. ⚡
+“Docker **image layers** are like **layers of a cake**. Each **Dockerfile instruction**, such as **installing Java** or **copying an application file**, contributes to building the **image**. Docker **reuses unchanged cached layers**, which makes image builds **faster** and **more efficient**.”
 
 To make builds and images more **efficient**, I use a **small base image**, copy files in the **right order**, use **`.dockerignore`** to exclude unnecessary files, and use **multi-stage builds** to remove build tools from the final image. 🛠️
 
